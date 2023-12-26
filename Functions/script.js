@@ -27,5 +27,9 @@ console.log("********************************   ");
 const fun1 = (x) => {
   console.log("Arrow FUNCTION " + x);
 };
+
+const fun2 = (a,b) => a+b ;
 fun1(23, 56);
 fun1(43);
+
+console.log(fun2(23, 56));
